@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap");
+
+:root {
+  --dark1: #1d1d1d;
+  --text1: #7d7d7d;
+  --links: #ff0000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+}
+
+/* Header */
+header {
+  background-image: url(./img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  text-align: center;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: var(--dark1);
+}
+
+header p {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--text1);
+  margin-bottom: 50px;
+}
+
+/* Menu */
+.menu {
+  background-color: var(--dark1);
+  padding: 20px;
+  border-radius: 50px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.menu li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--text1);
+}
+
+a.active {
+  color: white;
+  /*color: white !important; = saltar jerarquia */
+}
+
+.integer {
+  text-align: center;
+  padding: 80px;
+}
+
+.integer h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.integer h4 {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+footer {
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+  background-color: #000000;
+}
+
+footer > p {
+  color: white;
+  padding: 20px;
+}
+
+.social-media {
+  padding: 20px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.6;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-youtube {
+  background: #f167;
+  color: white;
+}
+
+.fa-spotify {
+  background: #20d760;
+  color: white;
+}
