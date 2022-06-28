@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Varela", sans-serif;
+}
+
+header {
+  background-color: #af1641;
+  padding: 80px;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+
+header h2 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+a.btn {
+  display: block;
+  background-color: #dc572e;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px;
+  margin: 30px auto 0;
+  width: 150px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+#nulla {
+  margin-top: 20px;
+  padding: 50px;
+  text-align: center;
+}
+
+.nulla-h2 {
+  color: black;
+  text-align: center;
+}
+
+.nulla-h3 {
+  font-size: medium;
+  color: gray;
+  text-align: center;
+}
+
+.nulla-p {
+  color: gray;
+  margin-top: 20px;
+  font-size: x-small;
+  text-align: center;
+}
+
+a.btn2 {
+  text-align: center;
+  background-color: #af1641;
+  margin-bottom: 20px;
+}
+
+a.btn3 {
+  text-align: center;
+  background-color: white;
+  color: #af1641;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#flor {
+  color: white;
+  margin-top: 20px;
+  padding: 50px;
+  text-align: center;
+  background-color: #af1641;
+}
+
+#flor img {
+  width: 700px;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.flor-h2 {
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.flor-h3 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: medium;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.flor-p {
+  font-size: x-small;
+  text-align: center;
+}
+
+nav.menu {
+  text-align: left;
+  padding: 15px;
+  background-color: #af1641;
+  width: 100%;
+}
+
+.menu li {
+  display: inline-block;
+  background-color: #af1641;
+  padding: 10px;
+  font-size: small;
+}
+
+.menu a {
+  color: white;
+  opacity: 90%;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.menu a:hover {
+  color: white;
+  background-color: #dc572e;
+}
+
+.menu a.active {
+  background-color: #dc572e;
+}
+
+#praesent {
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  padding: 50px;
+  color: black;
+}
+
+.praesent-h3 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: medium;
+  margin-bottom: 30px;
+  color: #6f6f6f;
+}
+
+footer {
+  padding: 50px;
+  text-align: center;
+  font-size: 10px;
+  color: #6f6f6f;
+  background-color: #323232;
+}
